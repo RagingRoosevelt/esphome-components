@@ -4,26 +4,26 @@
 
 
 /* Config Reggister Control */
-#define CFG_DATA GPIO_NUM_23
-#define CFG_CLK GPIO_NUM_18
-#define CFG_STR GPIO_NUM_0
+#define CFG_DATA GPIO23
+#define CFG_CLK GPIO18
+#define CFG_STR GPIO0
 
 /* Control Lines */
-#define CKV GPIO_NUM_25
-#define STH GPIO_NUM_26
+#define CKV GPIO25
+#define STH GPIO26
 
 /* Edges */
-#define CKH GPIO_NUM_5
+#define CKH GPIO5
 
 /* Data Lines */
-#define D7 GPIO_NUM_22
-#define D6 GPIO_NUM_21
-#define D5 GPIO_NUM_27
-#define D4 GPIO_NUM_2
-#define D3 GPIO_NUM_19
-#define D2 GPIO_NUM_4
-#define D1 GPIO_NUM_32
-#define D0 GPIO_NUM_33
+#define D7 GPIO22
+#define D6 GPIO21
+#define D5 GPIO27
+#define D4 GPIO2
+#define D3 GPIO19
+#define D2 GPIO4
+#define D1 GPIO32
+#define D0 GPIO33
 
 void epd_base_init(uint32_t epd_row_width);
 //void epd_poweron();
